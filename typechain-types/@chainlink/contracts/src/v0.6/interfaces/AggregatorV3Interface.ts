@@ -148,9 +148,7 @@ export interface AggregatorV3Interface extends BaseContract {
   getFunction(
     nameOrSignature: "description"
   ): TypedContractMethod<[], [string], "view">;
-  getFunction(
-    nameOrSignature: "getRoundData"
-  ): TypedContractMethod<
+  getFunction(nameOrSignature: "getRoundData"): TypedContractMethod<
     [_roundId: BigNumberish],
     [
       [bigint, bigint, bigint, bigint, bigint] & {
@@ -163,9 +161,7 @@ export interface AggregatorV3Interface extends BaseContract {
     ],
     "view"
   >;
-  getFunction(
-    nameOrSignature: "latestRoundData"
-  ): TypedContractMethod<
+  getFunction(nameOrSignature: "latestRoundData"): TypedContractMethod<
     [],
     [
       [bigint, bigint, bigint, bigint, bigint] & {

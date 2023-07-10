@@ -48,7 +48,9 @@ For faster runs of your tests and scripts, consider skipping ts-node's type chec
 # packages to install
 
 # install these packages first
+
 pnpm i -D typescript typechain @typechain/hardhat @typechain/ethers-v5 ts-node solidity-coverage prettier-plugin-solidity hardhat-gas-reporter hardhat-deploy ethers ethereum-waffle chai @types/node @types/mocha @types/chai @nomiclabs/hardhat-waffle @nomiclabs/hardhat-etherscan cross-env dotenv
 
 # then install this
+
 pnpm i -D @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers
